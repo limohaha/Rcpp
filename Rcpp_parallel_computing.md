@@ -1,1 +1,1 @@
-# Rcpp_computing
+# Rcpp_parallel_computing
