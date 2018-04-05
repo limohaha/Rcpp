@@ -27,4 +27,4 @@ Additionally, Rcpp also has data frame, list, S3 class and S4 class as well.
 | S3 class     | List        |
 | S4 class     | S4          |
 ## 2. Advanced Types  
-The mainly introduced advanced data types here is the high dimensional arrays.
+The mainly introduced advanced data types here is the high dimensional arrays. A high dimensional array can be allocated by `array(0, c(1,2,3,4))` in R environment. RcppArmadillo can let us have `cube` object with the same properties.
