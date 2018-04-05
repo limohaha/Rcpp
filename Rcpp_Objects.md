@@ -28,3 +28,28 @@ Additionally, Rcpp also has data frame, list, S3 class and S4 class as well.
 | S4 class     | S4          |
 ## 2. Advanced Types  
 The mainly introduced advanced data types here is the high dimensional arrays. A high dimensional array can be allocated by `array(0, c(1,2,3,4))` in R environment. RcppArmadillo can let us have `cube` object with the same properties.
+Small Example in the followings about `cube`:  
+In R:   
+```r
+library(Rcpp)
+library(RcppArmadillo)
+# compiling cpp file
+sourceCpp('r_scripts/rcpp/iter_FS.cpp')
+haha <- array(0, c(5,6,7))
+haha[1,2,3] <- 518
+rcpp_test(haha)
+```
+In cpp separate file:  
+```cpp
+#include <RcppArmadillo.h>
+using namespace Rcpp;
+
+// [[Rcpp::depends(RcppArmadillo)]]
+// [[Rcpp::export]]
+
+double test(arma::cube& X){
+  Rcout << "The value is " << X(0,1,2) << std::endl;
+  return(X(0,1,2));
+}
+```
+PS: You do not need to include `#include <Rcpp.h>` given `include <RcppArmadillo.h>` exist in your .cpp file.  
