@@ -1,3 +1,4 @@
+# Rcpp_basics
 ## 1. Suitable situations to use Rcpp
 R is weak and slow in loop and matrix operations. If the following operations involved in your coding process, you can consider using Rcpp instead of R to speed up your programs.  
 * Loop iterations are sequential: later iterations depend on previous iterations;  
