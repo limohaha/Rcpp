@@ -30,5 +30,5 @@ Notes:
 * Do not forget declare the global index variables at the beginning of scripts;
 * You can compile several functions in one .cpp file, but you need to add `//[[Rcpp::export]]` at the beginning of each function;
 
-## 2. Linear Algebra by [Armadillo](http://arma.sourceforge.net/)  
+## 2. Linear Algebra by [RcppArmadillo](https://cran.r-project.org/web/packages/RcppArmadillo/index.html)  
 
