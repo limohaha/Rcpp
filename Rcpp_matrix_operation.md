@@ -31,4 +31,4 @@ Notes:
 * You can compile several functions in one .cpp file, but you need to add `//[[Rcpp::export]]` at the beginning of each function;
 
 ## 2. Linear Algebra by [RcppArmadillo](https://cran.r-project.org/web/packages/RcppArmadillo/index.html)  
-
+[Link](https://github.com/petewerner/misc/wiki/RcppArmadillo-cheatsheet)
