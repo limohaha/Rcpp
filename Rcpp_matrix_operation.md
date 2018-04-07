@@ -31,4 +31,5 @@ Notes:
 * You can compile several functions in one .cpp file, but you need to add `//[[Rcpp::export]]` at the beginning of each function;
 
 ## 2. Linear Algebra by [RcppArmadillo](https://cran.r-project.org/web/packages/RcppArmadillo/index.html)  
-[Link](https://github.com/petewerner/misc/wiki/RcppArmadillo-cheatsheet)
+This is a [cheatsheet](https://github.com/petewerner/misc/wiki/RcppArmadillo-cheatsheet) of self defined normal R small function.
+For matrix Linear algebra, the [Armadillo C++ linear algebra library](http://arma.sourceforge.net/docs.html) is extremly powerful and easy to use.
