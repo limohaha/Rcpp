@@ -32,4 +32,5 @@ Notes:
 
 ## 2. Linear Algebra by [RcppArmadillo](https://cran.r-project.org/web/packages/RcppArmadillo/index.html)  
 This is a [cheatsheet](https://github.com/petewerner/misc/wiki/RcppArmadillo-cheatsheet) of self defined normal R small function.  
-For matrix Linear algebra, the [Armadillo C++ linear algebra library](http://arma.sourceforge.net/docs.html) is extremly powerful and easy to use.
+### 2.1 Differences between `mat` and `NumericMatrix`;  
+`mat` comes from C++ Armadillo packages and `NumericMatrix` comes from the standard package from Rcpp. `mat` and `NumericMatrix` are different classes with different initalized code. Therefore, they have different member functions. The link mentioned in the followings have detailed instructions about the matrix linear algebra in C++: [Armadillo C++ linear algebra library](http://arma.sourceforge.net/docs.html), which is easy to apply. Additionally, this library has new object, the three dimensional array `cube`, which is convenient in programming. (Note: The way to reference in `cube` is different from in R.)
