@@ -6,6 +6,3 @@ Programing in Rcpp Study Process towards speed up my computation.
 * Online gitbook: [Introduction to Rcpp](https://legacy.gitbook.com/book/teuder/introduction-to-rcpp/details)
 * Armadillo Online Help Documentation: [Armadillo](http://arma.sourceforge.net/docs.html)
 * Understanding R’s C interface: [R’s C interface](http://adv-r.had.co.nz/C-interface.html)
-
-## Example Code
-* ToyMatPointerExample.cpp: Example for how to use pointer for mat in rcpp;
